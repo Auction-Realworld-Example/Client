@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;900&family=Roboto:wght@300;400;500;700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Poppins, sans-serif;
+  word-spacing: normal;
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+  font-family: 'Circular';
+  src: url(./assets/font/CircularStd-Book.otf);
+  font-display: fallback;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  overflow-y: scroll;
+}
+
+#app {
+  color: white;
+
+}
+
+.ant-tabs-tab-btn {
+  color: white;
+}
+
+.ant-divider {
+  border-color: white;
+}
+
